@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { AsyncButtonDirective } from './directives/async-button.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AsyncButtonDirective
   ],
   imports: [
     BrowserModule,
